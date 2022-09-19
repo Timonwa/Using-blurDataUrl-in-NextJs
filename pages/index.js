@@ -9,7 +9,7 @@ export default function Home() {
   // getBase64FromUrl takes in the url of the image and converts it into a base64 Url.
   // but the url is usually larger than the image in size and also takes time to load.
   // so this is not a good usecase for placeholders
-  console.log(getBase64FromUrl(images[0].src));
+  // console.log(getBase64FromUrl(images[0].src));
 
   return (
     <div className={styles.container}>
