@@ -39,7 +39,7 @@ export default function Home() {
               <Image
                 src={image}
                 alt="masahiro-miyagi-xk0-YHAn3dzk-unsplash"
-                placeholder="blur"
+                // placeholder="blur"
                 layout="fill"
               />
             </div>
@@ -63,8 +63,8 @@ export default function Home() {
                 className={styles.image}
                 src={images[0].src}
                 alt={images[0].src}
-                placeholder="blur"
-                blurDataURL={getBase64FromUrl(images[0].src)}
+                // placeholder="blur"
+                // blurDataURL={getBase64FromUrl(images[0].src)}
                 layout="fill"
               />
             </div>
@@ -80,8 +80,8 @@ export default function Home() {
                   className={styles.image}
                   src={image.src}
                   alt={image.src}
-                  placeholder="blur"
-                  blurDataURL={image.blurUrl}
+                  // placeholder="blur"
+                  // blurDataURL={image.blurUrl}
                   layout="fill"
                 />
               </div>
