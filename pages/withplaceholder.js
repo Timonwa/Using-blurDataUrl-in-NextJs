@@ -24,7 +24,6 @@ const withplaceholder = () => {
               height="500"
             />
           </div>
-          <figcaption>This image uses a placeholder.</figcaption>
         </figure>
       </section>
     </main>

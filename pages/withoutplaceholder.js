@@ -15,7 +15,6 @@ const withoutplaceholder = () => {
           <div>
             <Image src={image.src} alt={image.src} width="900" height="500" />
           </div>
-          <figcaption>This image does not use a placeholder.</figcaption>
         </figure>
       </section>
     </main>
