@@ -12,7 +12,7 @@ const withplaceholder = () => {
 	
   return (
     <main className={styles.body}>
-      <h1>With Image blurDateURL</h1>
+      <h1>Using BlurDataUrl in NextJs</h1>
       <section>
         <figure>
           <div>
@@ -25,9 +25,7 @@ const withplaceholder = () => {
               height="500"
             />
           </div>
-          <figcaption>
-            This image uses a placeholder.
-          </figcaption>
+          <figcaption>This image has a placeholder.</figcaption>
         </figure>
       </section>
     </main>

@@ -10,20 +10,13 @@ const withoutplaceholder = () => {
 
   return (
     <main className={styles.body}>
-      <h1>With Image blurDateURL</h1>
+      <h1>Using BlurDataUrl in NextJs</h1>
       <section>
         <figure>
           <div>
-            <Image
-              src={image.src}
-              alt={image.src}
-              width="900"
-              height="500"
-            />
+            <Image src={image.src} alt={image.src} width="900" height="500" />
           </div>
-          <figcaption>
-            This image does not use a placeholder.
-          </figcaption>
+          <figcaption>This image does not have a placeholder.</figcaption>
         </figure>
       </section>
     </main>
