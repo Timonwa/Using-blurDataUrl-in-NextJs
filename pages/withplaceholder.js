@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import imagesrc from "../public/largeImage.jpg"
+import imagesrc from "../public/largeImage.jpg";
 import images from "../public/images";
 
 const withplaceholder = () => {
@@ -9,10 +9,9 @@ const withplaceholder = () => {
     src: imagesrc,
     blurUrl: images[0].blurUrl,
   };
-	
+
   return (
     <main className={styles.body}>
-      <h1>With Image blurDateURL</h1>
       <section>
         <figure>
           <div>
@@ -25,9 +24,7 @@ const withplaceholder = () => {
               height="500"
             />
           </div>
-          <figcaption>
-            This image uses a placeholder.
-          </figcaption>
+          <figcaption>This image uses a placeholder.</figcaption>
         </figure>
       </section>
     </main>
