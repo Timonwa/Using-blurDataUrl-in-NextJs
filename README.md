@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Using blurDataURL in NextJs. ✍️
 
-## Getting Started
+This is the code example for my article on [Improving Next.js app performance with BlurHash](https://blog.logrocket.com/improving-nextjs-app-performance-blurhash/) for [LogRocket](https://logrocket.com/). Here is the [live demo](https://using-blur-data-url-in-next-js.vercel.app/).
 
-First, run the development server:
+## Summary
+Next.js is a flexible React framework that can be used to build fast web applications. We can use the Next.js configuration to create, develop, and ship products fast without spending days structuring the application. But, building a web app quickly and creating a fast-loading web app are two different things.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The time it takes a web app to load to the client depends on how long it takes to serve its application code, styles, and data to the client in the first initial load. For example, the application’s performance degrades if the server needs to send additional assets, such as images, during the first initial load.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+There are numerous ways to optimize or improve the performance of your Next.js app to achieve a faster loading time. We’ll focus on one of these optimization strategies: using image placeholders for image optimization. Specifically, creatng image placeholders using the BlurHash algorithm.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Breakdown
+- What is an image placeholder?
+- What is BlurHash?
+- How does BlurHash work?
+- How much does BlurHash impact page speed?
+- How do you implement BlurHash in a Next.js app?
+- Generating BlurHash placeholders for static images
+- Generating BlurHash placeholders for dynamic images
+- Converting a Base83 data URL to a Base64 data URL
+- Adding the BlurHash URL to a Next.js app
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Please give this repo a ⭐ if it was helpful to you.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![demo preview video](https://user-images.githubusercontent.com/63044364/194695799-96ce7f62-ea12-4660-ab2d-06c8c755d220.gif)
