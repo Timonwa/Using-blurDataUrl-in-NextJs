@@ -2,6 +2,7 @@
 
 This is the code example for my article on [Improving Next.js app performance with BlurHash](https://blog.logrocket.com/improving-nextjs-app-performance-blurhash/) for [LogRocket](https://logrocket.com/). Here is the [live demo](https://using-blur-data-url-in-next-js.vercel.app/).
 
+Visit my blog, [Timonwa's Notes](https://blog.timonwa.com), for awesome technical content like articles, code snippets, tech goodies, community projects, and more.
 ## Summary
 Next.js is a flexible React framework that can be used to build fast web applications. We can use the Next.js configuration to create, develop, and ship products fast without spending days structuring the application. But, building a web app quickly and creating a fast-loading web app are two different things.
 
